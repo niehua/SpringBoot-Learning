@@ -3,6 +3,9 @@ package com.didispace;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 	MyBatis使用详解
+ */
 @SpringBootApplication
 public class Application {
 

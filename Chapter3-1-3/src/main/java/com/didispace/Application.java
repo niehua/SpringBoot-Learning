@@ -9,6 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ *  使用freemarker模板引擎
+ *
  */
 @SpringBootApplication
 public class Application {

@@ -10,6 +10,9 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
 
+/**
+ * 多数据源配置（二）：Spring-data-jpa
+ */
 @SpringBootApplication
 public class Application {
 

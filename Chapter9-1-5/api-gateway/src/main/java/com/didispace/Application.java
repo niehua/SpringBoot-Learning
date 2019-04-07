@@ -6,6 +6,10 @@ import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * 	Spring Cloud构建微服务架构（五）服务网关，布置了网关之后，还是一样的请求，不知道网关有什么用
+ *
+ */
 @EnableZuulProxy
 @SpringCloudApplication
 public class Application {

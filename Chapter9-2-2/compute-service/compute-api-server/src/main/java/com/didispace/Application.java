@@ -9,6 +9,9 @@ import org.springframework.context.annotation.ImportResource;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 	spring boot与dubbo的API依赖管理
+ */
 @SpringBootApplication
 @ImportResource({"classpath:dubbo.xml"})
 public class Application {

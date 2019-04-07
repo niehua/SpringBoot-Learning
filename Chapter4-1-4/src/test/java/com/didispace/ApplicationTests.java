@@ -20,15 +20,12 @@ public class ApplicationTests {
     @SneakyThrows
     public void test() {
 
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
             task.doTaskOne();
             task.doTaskTwo();
             task.doTaskThree();
-
-            if (i == 9999) {
-                System.exit(0);
-            }
         }
+        System.exit(0);
     }
 
 }

@@ -24,7 +24,7 @@ public class ApplicationTests {
 	}
 
 	@Test
-	public void test() throws Exception {
+	public void test()  {
 
 		// 创建三个User，并验证User总数
 		userRepository.save(new User(1L, "didi", 30));

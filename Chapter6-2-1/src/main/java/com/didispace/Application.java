@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ * 	/info端点输出Git版本信息，感觉代码不完整，无意义
  */
 @SpringBootApplication
 public class Application {

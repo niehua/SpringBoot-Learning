@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @RestController注解相当于@ResponseBody ＋ @Controller
+ * 使用@RestController这个注解，就不能返回jsp,html页面，视图解析器无法解析jsp,html页面，返回的内容就是Return 里的内容。
+ *
+ */
+
 @RestController
 public class ComputeController {
 

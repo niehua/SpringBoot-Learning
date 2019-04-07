@@ -14,7 +14,7 @@ public class ApplicationTests {
 	private Logger logger = Logger.getLogger(getClass());
 
 	@Test
-	public void test() throws Exception {
+	public void test()  {
 		logger.info("输出info");
 		logger.debug("输出debug");
 		logger.error("输出error");

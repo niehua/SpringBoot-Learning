@@ -18,7 +18,7 @@ public class ApplicationTests {
     private MongoClient mongoClient;
 
     @Test
-    public void test() throws Exception {
+    public void test() {
         log.info("MinConnectionsPerHost = {}, MaxConnectionsPerHost = {}",
                 mongoClient.getMongoClientOptions().getMinConnectionsPerHost(),
                 mongoClient.getMongoClientOptions().getConnectionsPerHost());

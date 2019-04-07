@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * 	Spring Boot 1.5.x新特性：动态修改日志级别，没看懂，感觉毫无意义
+ */
 @RestController
 @SpringBootApplication
 public class DemoApplication {

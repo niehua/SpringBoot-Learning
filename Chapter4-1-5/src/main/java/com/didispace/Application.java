@@ -10,6 +10,9 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import java.util.concurrent.Executor;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * 	使用@async实现异步调用：使用Future的get方法返回异步结果
+ */
 
 @SpringBootApplication
 public class Application {

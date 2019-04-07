@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ * 使用Thymeleaf模板引擎渲染web视图
  */
 @SpringBootApplication
 public class Application {

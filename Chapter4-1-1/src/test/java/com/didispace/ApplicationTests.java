@@ -12,7 +12,7 @@ public class ApplicationTests {
 
 
 	@Test
-	public void getHello() throws Exception {
+	public void getHello()  {
 	}
 
 }

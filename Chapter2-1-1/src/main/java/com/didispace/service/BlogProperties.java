@@ -3,6 +3,8 @@ package com.didispace.service;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.sql.DataSourceDefinition;
+
 /**
  * @author 程序猿DD
  * @version 1.0.0

@@ -22,7 +22,7 @@ public class ApplicationTests {
         task.doTaskTwo();
         task.doTaskThree();
 
-        Thread.currentThread().join();
+        Thread.currentThread().join();//主线程等待子线程运行完再执行
     }
 
 }

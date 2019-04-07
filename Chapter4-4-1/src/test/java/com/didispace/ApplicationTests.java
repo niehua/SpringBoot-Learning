@@ -33,7 +33,7 @@ public class ApplicationTests {
 	}
 
 	@Test
-	public void test() throws Exception {
+	public void test()  {
 
 		User u1 = userRepository.findByName("AAA");
 		System.out.println("第一次查询：" + u1.getAge());

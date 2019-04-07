@@ -1,5 +1,9 @@
 package com.didispace;
 
+/**
+ * 	构建一个较为复杂的RESTful API以及单元测试
+ */
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

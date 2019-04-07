@@ -35,7 +35,7 @@ public class WebLogAspect {
     public void webLog(){}
 
     @Before("webLog()")
-    public void doBefore(JoinPoint joinPoint) throws Throwable {
+    public void doBefore(JoinPoint joinPoint)  {
         startTime.set(System.currentTimeMillis());
 
         // 接收到请求，记录请求内容
@@ -52,7 +52,7 @@ public class WebLogAspect {
     }
 
     @AfterReturning(returning = "ret", pointcut = "webLog()")
-    public void doAfterReturning(Object ret) throws Throwable {
+    public void doAfterReturning(Object ret)  {
         // 处理完请求，返回内容
         logger.info("RESPONSE : " + ret);
         logger.info("SPEND TIME : " + (System.currentTimeMillis() - startTime.get()));

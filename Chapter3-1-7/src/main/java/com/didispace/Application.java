@@ -19,6 +19,9 @@ import java.time.LocalDate;
  * @author 程序猿DD
  * @version 1.0.0
  * @blog http://blog.didispace.com
+ *
+ * 	Spring Boot以及Feign使用Java 8中LocalDate等时间日期类的问题解决
+ * 	注意：请求是post，且要求参数UserDto
  */
 @SpringBootApplication
 public class Application {
@@ -31,7 +34,7 @@ public class Application {
     class HelloController {
 
         @PostMapping("/user")
-        public UserDto user(@RequestBody UserDto userDto) throws Exception {
+        public UserDto user(@RequestBody UserDto userDto) {
             return userDto;
         }
 

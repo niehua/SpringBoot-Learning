@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author 程序猿DD
  * @version 1.0.0
  * @blog http://blog.didispace.com
+ *
+ * 	扩展XML请求和响应的支持，也就是按照定义序列化实体
  */
 @SpringBootApplication
 public class Application {

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(value = Exception.class)
-    public ModelAndView defaultErrorHandler(HttpServletRequest req, Exception e) throws Exception {
+    public ModelAndView defaultErrorHandler(HttpServletRequest req, Exception e)  {
         ModelAndView mav = new ModelAndView();
         mav.addObject("exception", e);
         mav.addObject("url", req.getRequestURL());
@@ -22,7 +22,7 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler(value = MyException.class)
     @ResponseBody
-    public ErrorInfo<String> jsonErrorHandler(HttpServletRequest req, MyException e) throws Exception {
+    public ErrorInfo<String> jsonErrorHandler(HttpServletRequest req, MyException e)  {
         ErrorInfo<String> r = new ErrorInfo<>();
         r.setMessage(e.getMessage());
         r.setCode(ErrorInfo.ERROR);

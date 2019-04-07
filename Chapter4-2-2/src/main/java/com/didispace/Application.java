@@ -1,11 +1,11 @@
 package com.didispace;
 
-import org.apache.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableAsync;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
+/**
+ * 	使用log4j记录日志
+ */
 @SpringBootApplication
 public class Application {
 

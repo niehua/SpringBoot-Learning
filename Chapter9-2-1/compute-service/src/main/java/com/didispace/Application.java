@@ -9,6 +9,9 @@ import org.springframework.context.annotation.ImportResource;
 
 import java.util.concurrent.CountDownLatch;
 
+/**
+ * 	Spring Boot整合Dubbo
+ */
 @SpringBootApplication
 @ImportResource({"classpath:dubbo.xml"})
 public class Application {

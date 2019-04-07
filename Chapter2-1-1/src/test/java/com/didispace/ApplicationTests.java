@@ -19,6 +19,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ * 	配置文件详解：自定义属性、随机数、多环境配置等
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(Application.class)

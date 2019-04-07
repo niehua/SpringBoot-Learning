@@ -9,6 +9,9 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 import java.util.concurrent.Executor;
 
+/**
+ * 	使用@async实现异步调用：资源优雅关闭, 测试失败，获取redis线程时出现：Could not get a resource from the pool
+ */
 @SpringBootApplication
 public class Application {
 

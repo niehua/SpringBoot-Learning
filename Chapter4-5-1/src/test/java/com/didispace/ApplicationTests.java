@@ -28,11 +28,11 @@ public class ApplicationTests {
 	private VelocityEngine velocityEngine;
 
 	@Test
-	public void sendSimpleMail() throws Exception {
+	public void sendSimpleMail()  {
 
 		SimpleMailMessage message = new SimpleMailMessage();
-		message.setFrom("dyc87112@qq.com");
-		message.setTo("dyc87112@qq.com");
+		message.setFrom("670610947@qq.com");
+		message.setTo("1096281540@qq.com");
 		message.setSubject("主题：简单邮件");
 		message.setText("测试邮件内容");
 
@@ -45,8 +45,8 @@ public class ApplicationTests {
 		MimeMessage mimeMessage = mailSender.createMimeMessage();
 
 		MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
-		helper.setFrom("dyc87112@qq.com");
-		helper.setTo("dyc87112@qq.com");
+		helper.setFrom("670610947@qq.com");
+		helper.setTo("670610947@qq.com");
 		helper.setSubject("主题：有附件");
 		helper.setText("有附件的邮件");
 

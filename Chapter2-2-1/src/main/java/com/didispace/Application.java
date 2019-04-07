@@ -15,6 +15,7 @@ import java.util.List;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ * 	Spring Boot 2.0 新特性：配置绑定 2.0 全解析
  */
 @SpringBootApplication
 public class Application {

@@ -23,7 +23,7 @@ public class ApplicationTests {
 	private RedisTemplate<String, User> redisTemplate;
 
 	@Test
-	public void test() throws Exception {
+	public void test() {
 
 		// 保存字符串
 		stringRedisTemplate.opsForValue().set("aaa", "111");

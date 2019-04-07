@@ -14,7 +14,7 @@ public class ApplicationTests {
 	private PersonRepository personRepository;
 
 	@Test
-	public void findAll() throws Exception {
+	public void findAll() {
 
 		personRepository.findAll().forEach(p -> {
 			System.out.println(p);
@@ -23,7 +23,7 @@ public class ApplicationTests {
 	}
 
 	@Test
-	public void save() throws Exception {
+	public void save() {
 		Person person = new Person();
 		person.setUid("uid:1");
 		person.setSuerName("AAA");

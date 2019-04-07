@@ -36,7 +36,7 @@ public class WebLogAspect {
     public void webLog(){}
 
     @Before("webLog()")
-    public void doBefore(JoinPoint joinPoint) throws Throwable {
+    public void doBefore(JoinPoint joinPoint)  {
         // 获取HttpServletRequest
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes.getRequest();

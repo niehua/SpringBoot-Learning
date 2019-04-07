@@ -18,7 +18,7 @@ public class ApplicationTests {
 	private UserRepository userRepository;
 
 	@Test
-	public void test() throws Exception {
+	public void test() {
 
 		// 创建10条记录
 		userRepository.save(new User("AAA", 10));

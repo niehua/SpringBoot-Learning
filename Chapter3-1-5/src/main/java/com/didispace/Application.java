@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0.0
  * @blog http://blog.didispace.com
  *
+ * 	update ApiImplicitParam paramType field for swagger
  */
 @SpringBootApplication
 public class Application {
